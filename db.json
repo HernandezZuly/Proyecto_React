@@ -1,0 +1,131 @@
+{
+  "doctor": [
+    {
+      "id": 1,
+      "nombre": "Mario",
+      "apellido": "Palomino",
+      "documento": 40987643,
+      "direccion": "Calle32d#10f05",
+      "correo": "mario@gmail.com",
+      "telefono": 4321532432,
+      "fechaNacimiento": "1999-09-10",
+      "password": 999
+    },
+    {
+      "id": 2,
+      "nombre": "Martha",
+      "apellido": "Perez",
+      "documento": 101665214,
+      "direccion": "Calle78d#13u45",
+      "correo": "martha@gmail.com",
+      "telefono": 8792134238,
+      "fechaNacimiento": "1990-02-21",
+      "password": 888
+    },
+    {
+      "id": 3,
+      "nombre": "Marco",
+      "apellido": "Ruiz",
+      "documento": 1614321453,
+      "direccion": "Calle17e#18k89",
+      "correo": "marco@gmail.com",
+      "telefono": 9874102745,
+      "fechaNacimiento": "2000-07-10",
+      "password": 777
+    }
+  ],
+  "paciente": [
+    {
+      "id": 1,
+      "nombre": "Valentina",
+      "apellido": "Hernandez",
+      "correo": "valentina@gmail.com",
+      "telefono": 1315674321,
+      "password": 1234
+    },
+    {
+      "id": 2,
+      "nombre": "Alejandro",
+      "apellido": "Ruiz",
+      "correo": "alejandro@gmail.com",
+      "telefono": 9076854678,
+      "password": 5678
+    },
+    {
+      "id": 3,
+      "nombre": "Valery",
+      "apellido": "Ballesteros",
+      "correo": "valery@gmail.com",
+      "telefono": 9078561211,
+      "password": 9999
+    },
+    {
+      "id": 4,
+      "nombre": "Juana",
+      "apellido": "Marroquin",
+      "correo": "juana@gmail.com",
+      "telefono": 3552134323,
+      "password": 1111
+    },
+    {
+      "nombre": "Marlen",
+      "apellido": "Hernandez",
+      "correo": "marlen@gmail.com",
+      "telefono": "6577656789",
+      "password": "marlen1234",
+      "id": 5
+    },
+    {
+      "correo": "marlen@gmail.com",
+      "password": "marlen1234",
+      "id": 6
+    }
+  ],
+  "cita": [
+    {
+      "id": 1,
+      "pacienteId": 0,
+      "doctorId": 2,
+      "fecha_cita": "2023-08-31",
+      "hora_cita": "10:00",
+      "tipo_cita": "Crecimiento y desarrollo",
+      "valor_cita": 15000
+    },
+    {
+      "id": 2,
+      "pacienteId": 0,
+      "doctorId": 1,
+      "fecha_cita": "2023-09-01",
+      "hora_cita": "11:00",
+      "tipo_cita": "Odontologia",
+      "valor_cita": 16000
+    },
+    {
+      "id": 3,
+      "pacienteId": 0,
+      "doctorId": 3,
+      "fecha_cita": "2023-10-11",
+      "hora_cita": "4:00",
+      "tipo_cita": "Dermatologia",
+      "valor_cita": 10000
+    },
+    {
+      "id": 4,
+      "pacienteId": 0,
+      "doctorId": 2,
+      "fecha_cita": "2023-08-31",
+      "hora_cita": "1:00",
+      "tipo_cita": "Crecimiento y desarrollo",
+      "valor_cita": 15000
+    },
+    {
+      "id": 5,
+      "pacienteId": 0,
+      "doctorId": 1,
+      "fecha_cita": "2023-09-01",
+      "hora_cita": "12:00",
+      "tipo_cita": "Odontologia",
+      "valor_cita": 16000
+    }
+  ]
+}
